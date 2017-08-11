@@ -1,0 +1,102 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Hemsidans titel</title>
+</head>
+<body>
+
+ <nav class="nav navbar-inverse navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-random" aria-hidden="true"></span></a>
+                <ul class="nav navbar-nav">
+                    <li><a href="menyval1.html">serier</a></li>
+                    <li><a href="menyval2.html">spel</a></li>
+                    <li><a href="menyval3.html">världens dyraste klockor</a></li>
+                     <li><a href="menyval4.html">onödigt dyra saker</a></li>
+                     <li><a href="menyval5.html">mina favorit spel</a></li>
+                </ul>
+            </div>
+        </nav>
+<html>
+    <head>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }    
+        #box1{
+            height: 100vh;
+            width: 100%;
+            background-image: url(bilder/bazinga.jpg);
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;
+        }
+        #box2{
+            height: 100vh;
+            width: 100%;
+            background-image: url(bilder/wake.jpg);
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;
+        }
+        #box3{
+            height: 100vh;
+            width: 100%;
+            background-image: url(bilder/overwtach.jpg);
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;
+        }
+        h1{
+            font-family: arial black;
+            font-size: 50px;
+            color:white;
+            margin: 0px;
+            text-align: center;
+            display: table-cell;
+            vertical-align: middle;
+        }
+    </style>
+    </head>
+    <body>
+        <div id="box1">
+            <h1>Player unknown battelgrounds är ett spel i genran Battel royale tanken med spelet är att överleva och samtidigt ta ut alla andra spelare samtid som cirkeln långsamt krymper och bli mindre och mindre</h1>
+        </div>
+        <div id="box2">
+            <h1>´Blackwake är ett spel som där man ska sänka fiendens skepp eller döda dem så deraas tickets går ut deras liv alltså eller i vissa gamemodes taderas skatt coh ta den till sin bas för att vinna.</h1>
+        </div>
+        <div id="box3">
+            <h1>Overwatch är ett spel där samarbete är allt om laget inte samarbeter förlorar man oftast jag älskar spelet pga av alla saker man kan göra och jätte många dumma strategier</h1>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+</body>
+</html>
